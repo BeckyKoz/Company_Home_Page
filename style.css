@@ -1,21 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
     font-family: "Montserrat", sans-serif;
-    
+    font-size: 1.3rem;
     /* FONTS  */
     /* font-family: 'Dekko', cursive; */
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'News Cycle', sans-serif; */
     /* font-family: 'Voltaire', sans-serif; */
-
-
-}
-
-body {
     display: flex;
     flex-direction: column;
     background-color: rgb(87, 129, 101);
@@ -25,6 +21,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 header {
@@ -47,8 +44,8 @@ h1 {
     justify-content: center;
 }
 
-.bg {
-
+h2 {
+    padding: 5rem 0 3rem 0;
 }
 
 .navbar {
@@ -57,8 +54,8 @@ h1 {
 }
     
 img {
-    height: 200px;
-    width: 200px;
+    height: 20rem;
+    width: auto;
 }
 
 ul {
@@ -76,6 +73,8 @@ li {
 section {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
+    gap: 3rem;
 }
 
 wrapper {
@@ -91,9 +90,14 @@ wrapper {
     flex-flow: column wrap;
 }
 
-.grow {
+.purpose p {
+    text-align: center;
+}
+
+.wrap {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #whatWeGrow {
@@ -101,6 +105,11 @@ wrapper {
     flex-flow: row wrap;
 }
 
-h2 {
-    justify-self: normal;
+#meetTheKozuras {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+span {
+    padding: 1rem;
 }
