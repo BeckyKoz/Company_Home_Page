@@ -14,7 +14,7 @@ body {
     /* font-family: 'Voltaire', sans-serif; */
     display: flex;
     flex-direction: column;
-    background-color: rgb(87, 129, 101);
+    background-color: rgb(199, 211, 203);
     width: 100vw;
 }
 
@@ -56,6 +56,7 @@ h2 {
 img {
     height: 20rem;
     width: auto;
+    border-radius: 1rem;
 }
 
 ul {
