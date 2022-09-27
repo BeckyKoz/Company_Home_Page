@@ -27,11 +27,6 @@ main {
 header {
     display: flex;
     justify-content: space-around;
-    /* background-image: url('resources/Kozura Gardens/kg_peaches_1.jpg');
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat; */
-    /* opacity: 0.7; */
 }
 
 h1 {
@@ -50,7 +45,9 @@ h2 {
 
 .navbar {
     display: flex;
-
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
 }
     
 img {
@@ -76,6 +73,8 @@ section {
     flex-flow: column wrap;
     align-items: center;
     gap: 3rem;
+    justify-content: center;
+
 }
 
 wrapper {
@@ -93,6 +92,8 @@ wrapper {
 
 .purpose p {
     text-align: center;
+    margin: 1rem auto;
+    line-height: 4rem;
 }
 
 .wrap {
